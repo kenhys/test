@@ -1,4 +1,3 @@
-
 export ORIG_PATH=$PATH
 export MINGW_PATH=/mingw/bin:/bin
 export LANG=C
