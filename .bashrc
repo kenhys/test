@@ -11,7 +11,6 @@ export INCLUDE=$GTKINC:$GTKINC/atk-1.0:$GTKINC/glib-2.0:$GTKINC/gtk-2.0:$GTKINC/
 export C_INCLUDE_PATH=$INCLUDE
 export LIBRARY_PATH=~/Project/sylpheed/GTK/lib:/mingw/local/lib:/mingw/lib
 export LD_LIBRARY_PATH=~/Project/sylpheed/GTK/lib:/mingw/local/lib:/mingw/lib
-echo
 echo "LANG: $LANG"
 echo "PATH: $PATH"
 echo "INCLUDE: $INCLUDE"
@@ -19,4 +18,5 @@ echo "PKG_CONFIG: $PKG_CONFIG"
 echo "PKG_CONFIG_PATH: $PKG_CONFIG_PATH"
 echo "LIBRARY_PATH: $LIBRARY_PATH"
 echo "LD_LIBRARY_PATH: $LD_LIBRARY_PATH"
+
 
